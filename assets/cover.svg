@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" role="img" aria-labelledby="title desc">
+  <title id="title">Build · Research · Create</title>
+  <desc id="desc">Nico / Ziyang Liang. A midnight-blue banner with connected nodes and flowing sound waves.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#101a36"/><stop offset=".55" stop-color="#15254e"/><stop offset="1" stop-color="#181a36"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" x2="1">
+      <stop offset="0" stop-color="#60d8d1"/><stop offset=".55" stop-color="#8ea9ff"/><stop offset="1" stop-color="#d5a8ee"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="960" height="320" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="960" height="320" fill="url(#bg)"/>
+    <g stroke="#becff8" stroke-opacity=".07" fill="none">
+      <path d="M0 80H960M0 160H960M0 240H960M640 0V320M760 0V320M880 0V320"/>
+    </g>
+    <g fill="none" stroke-linecap="round">
+      <path d="M480 294C530 294 540 236 580 236S640 312 680 286S730 222 770 238S840 300 890 263S940 207 990 240" stroke="url(#wave)" stroke-width="3" opacity=".8"/>
+      <path d="M480 306C540 306 550 265 590 265S655 316 700 300S748 256 790 264S872 300 975 284" stroke="#b8ccff" stroke-width="1.5" opacity=".22"/>
+    </g>
+    <g fill="#abc0ff"><circle cx="580" cy="236" r="4"/><circle cx="770" cy="238" r="4"/><circle cx="890" cy="263" r="4"/></g>
+    <g font-family="Arial, Helvetica, sans-serif">
+      <text x="48" y="78" font-size="24" fill="#a5cad7" letter-spacing="3">NICO / ZIYANG LIANG</text>
+      <text x="45" y="157" font-size="58" font-weight="700" fill="#fafbff">Build · Research · Create</text>
+      <text x="48" y="205" font-size="24" fill="#c4cee4">AI systems / open source / music &amp; beyond</text>
+    </g>
+  </g>
+</svg>
