@@ -1,8 +1,10 @@
 # 照片与平台更新指南
 
-## 个人照片：assets/portrait.jpg
+## 当前个人照片：assets/liang.jpg
 
-该路径已预留，但不创建空白 JPG，也不在文件缺失时引用它。当前主页使用公开 GitHub 头像。
+主页已使用你提供的 `assets/liang.jpg`，居中显示，宽度 180px，保留原始 2:3 比例，不裁切、不拉伸。替换这张照片时可直接更新同名文件。
+
+`assets/portrait.jpg` 仍作为日后可选路径预留；只有实际放入文件后才切换引用：
 
 1. 选择你愿意公开、有权使用的真人照片，建议正方形或 4:5，300–800 KB。
 2. 发布前移除 EXIF/GPS，并检查背景中的个人信息。
@@ -10,7 +12,7 @@
 4. 将 README 顶部头像标签替换为：
 
 ```html
-<img src="assets/portrait.jpg" width="120" alt="Portrait of Ziyang Liang" />
+<img src="assets/portrait.jpg" width="180" alt="Portrait of Ziyang Liang" />
 ```
 
 ## 音乐、创作与生活：2–3 张

@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/cover.svg" alt="Build · Research · Create — AI systems, open source, music and beyond" width="100%" />
   <br /><br />
-  <img src="https://avatars.githubusercontent.com/u/103879136?v=4" width="88" height="88" alt="Nico's current GitHub avatar" />
+  <img src="assets/liang.jpg" width="180" alt="Portrait of Ziyang Liang (Nico) holding a camera" />
 </div>
 
 # Ziyang Liang · 梁子洋
