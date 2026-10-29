@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" role="img" aria-labelledby="title desc">
   <title id="title">Build · Research · Create</title>
-  <desc id="desc">Nico / Ziyang Liang. A midnight-blue banner with connected nodes and flowing sound waves.</desc>
+  <desc id="desc">Yang / Ziyang Liang. A midnight-blue banner with connected nodes and flowing sound waves.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
       <stop offset="0" stop-color="#101a36"/><stop offset=".55" stop-color="#15254e"/><stop offset="1" stop-color="#181a36"/>
@@ -21,7 +21,7 @@
     </g>
     <g fill="#abc0ff"><circle cx="580" cy="236" r="4"/><circle cx="770" cy="238" r="4"/><circle cx="890" cy="263" r="4"/></g>
     <g font-family="Arial, Helvetica, sans-serif">
-      <text x="48" y="78" font-size="24" fill="#a5cad7" letter-spacing="3">NICO / ZIYANG LIANG</text>
+      <text x="48" y="78" font-size="24" fill="#a5cad7" letter-spacing="3">YANG / ZIYANG LIANG</text>
       <text x="45" y="157" font-size="58" font-weight="700" fill="#fafbff">Build · Research · Create</text>
       <text x="48" y="205" font-size="24" fill="#c4cee4">AI systems / open source / music &amp; beyond</text>
     </g>

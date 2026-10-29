@@ -43,6 +43,9 @@ def main():
                 errors.append(f'Missing anchor: {url}')
             elif parsed.path and not (ROOT / urllib.parse.unquote(parsed.path)).is_file():
                 errors.append(f'Missing file: {url}')
+        elif parsed.scheme == 'mailto':
+            if not re.fullmatch(r'[^\s@]+@[^\s@]+\.[^\s@]+', parsed.path):
+                errors.append(f'Invalid email link: {url}')
         elif parsed.scheme not in ('https', 'http'):
             errors.append(f'Unexpected scheme: {url}')
         elif args.online:

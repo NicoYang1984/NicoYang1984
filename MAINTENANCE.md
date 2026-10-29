@@ -21,9 +21,11 @@ States were checked against GitHub on **2026-10-29**:
 | LazyMind #873 | Open, Draft | https://github.com/LazyAGI/LazyMind/pull/873 |
 | FastMCP #6134 | Open, Draft | https://github.com/PrefectHQ/fastmcp/pull/6134 |
 
+The repository-level Contributor list also includes LazyRAG (merged #8, #10, #22, #25) and kyrolabs/awesome-agents (merged #895), verified through public GitHub PR search on 2026-10-29.
+
 Project descriptions were checked against their public repository READMEs. Education and creative interests follow the account owner's supplied information. No degree dates, publication claims, employment titles, or musical releases were inferred.
 
-When editing, recheck PR metadata rather than inferring merge status from a PR description or closed state. Move a PR into the merged section only when `merged_at` is present. Keep independent experiments distinct from accepted upstream work. Verify public visibility before adding any repository.
+When editing, recheck PR metadata rather than inferring merge status from a PR description or closed state. Keep the profile organized by repository and role, not by individual PR. Use an unqualified Contributor label for repositories with merged contributions; describe unmerged submissions as proposed contributions. Keep detailed evidence here rather than expanding the profile with each new PR. Keep independent experiments distinct from accepted upstream work. Verify public visibility before adding any repository.
 
 ## Validate and publish
 

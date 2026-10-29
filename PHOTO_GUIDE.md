@@ -2,7 +2,7 @@
 
 ## 当前个人照片：assets/liang.jpg
 
-主页已使用你提供的 `assets/liang.jpg`，居中显示，宽度 180px，保留原始 2:3 比例，不裁切、不拉伸。替换这张照片时可直接更新同名文件。
+主页已使用你提供的 `assets/liang.jpg`，位于介绍文字右侧，宽度为内容区的 26%，保留原始 2:3 比例，不裁切、不拉伸。替换这张照片时可直接更新同名文件。
 
 `assets/portrait.jpg` 仍作为日后可选路径预留；只有实际放入文件后才切换引用：
 
@@ -12,7 +12,7 @@
 4. 将 README 顶部头像标签替换为：
 
 ```html
-<img src="assets/portrait.jpg" width="180" alt="Portrait of Ziyang Liang" />
+<img align="right" src="assets/portrait.jpg" width="26%" hspace="12" alt="Portrait of Ziyang Liang" />
 ```
 
 ## 音乐、创作与生活：2–3 张
@@ -28,7 +28,7 @@ README 的 `PHOTO_GALLERY_START` 注释中已预留三个位置：
 ## 作品与平台
 
 - 音乐：补充代表作标题、官方播放链接，以及有权公开的封面。
-- 社交：在 Elsewhere 折叠区填入抖音、B 站、知乎、其他音乐平台和个人网站的公开个人主页地址。
+- 社交：在 Connect 区域填入抖音、B 站、知乎、其他音乐平台和个人网站的公开个人主页地址。
 - 不用 `#`、示例域名或猜测的用户 ID 占位；缺链接时保留纯文字。
 
 更新后运行 `python3 scripts/check_profile.py`；发布操作见 [MAINTENANCE.md](MAINTENANCE.md)。
